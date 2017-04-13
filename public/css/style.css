@@ -1,0 +1,222 @@
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+.full{
+	background: url("../images/21imacdesktopOWC.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#jumbotron {
+	background: transparent;
+	color: black;
+}
+
+.jumbotron h1 {
+	padding: 6px;
+	display: inline;
+	background-color: black;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#page-header{
+	text-align: center
+	background: transparent;
+	color: black;
+	margin: 20px 0 12px;
+}
+
+.page-header h1{
+	padding: 6px;
+	display: inline;
+	background-color: #EEEEEE;
+	font-family: 'Orbitron', sans-serif;
+
+}
+
+.carousel img {
+	min-width: 100%;
+	max-height: 
+}
+
+#profile {
+	background-color: transparent;
+	margin-bottom: 100px;
+}
+
+#profile h1 {
+	color: black;
+	display: inline;
+	margin-left: 20px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#profile h1 span{
+	padding: 10px;
+	padding-bottom: 0px;
+	background-color: #EEEEEE;
+}
+
+#profile h2{
+
+	display: inline;
+	background-color: #EEEEEE;
+	color: black;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#profile h2 span{
+	padding: 10px;
+	padding-bottom: 0px;
+	background-color: #EEEEEE;
+}
+
+#profile .intro{
+	margin-top: 50px;
+	margin-bottom: 50px; 
+}
+
+#profile .center{
+	text-align: center;
+}
+
+#profile p{
+	/*display: inline;*/
+	background-color: #EEEEEE;
+	color: black;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 15px;
+}
+
+#profile p span{
+	padding: 10px;
+}
+
+#profile img{
+	padding-top: 13px;
+	padding-bottom: 40px;
+}
+
+#tech {
+}
+
+#tech h1{
+	margin-top: 30px;
+	color: black;
+	display: inline;
+	background-color: #EEEEEE;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#tech h1 span{
+	padding: 10px;
+	padding-bottom: 0px;
+}
+
+#skills{
+	
+}
+
+#skills .center{
+	text-align: center;
+}
+
+#skills h1 span{
+	padding: 10px;
+	margin-top: 30px;
+	color: black;
+	display: inline;
+	background-color: #EEEEEE;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#skills h2 span{
+	padding: 10px;
+	margin-top: 30px;
+	color: black;
+	display: inline;
+	background-color: #EEEEEE;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#skills .panel{
+	font-family: 'Droid Serif', serif;
+	background-color: transparent;
+}
+
+#skills .panel-body{
+	color: black;
+}
+
+#skills .panel-body p span{
+	padding: 10px;
+	display: inline-flex;
+	font-size: 18px;
+	color: #D9CB81;
+	background-color: rgb(0,131,80);
+}
+
+#create h2 span{
+	padding: 10px;
+	margin-top: 30px;
+	color: #B39700;
+	background-color: rgb(0,131,80);
+	display: inline;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#create li span{
+	padding: 10px;
+	margin-top: 30px;
+	color: #B39700;
+	background-color: rgb(0,131,80);
+	display: inline;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#blog h2 span{
+	padding: 10px;
+	margin-top: 30px;
+	color: #B39700;
+	background-color: rgb(0,131,80);
+	display: inline;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#blog p span{
+	padding: 10px;
+	margin-top: 30px;
+	color: #B39700;
+	background-color: rgb(0,131,80);
+	display: inline;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#blog h2 span a{
+	padding: 10px;
+	margin-top: 30px;
+	color: #B39700;
+	background-color: rgb(0,131,80);
+	display: inline;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#blog h5 span{
+	padding: 10px;
+	margin-top: 30px;
+	color: #B39700;
+	background-color: rgb(0,131,80);
+	display: inline;
+	font-family: 'Orbitron', sans-serif;
+}
+
+
+
+
+
+
