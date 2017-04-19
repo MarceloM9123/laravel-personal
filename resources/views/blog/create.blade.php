@@ -4,14 +4,6 @@
 
 <div class="container">
 	<div class="row">
-		<div id="blog-header" class="page-header">
-			<h1>Marcelo Mata<small>coder</small></h1>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
 		<div class="col-sm-8">
 			<div id="create">
 				<h2><span>Publish a Post</span></h2>

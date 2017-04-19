@@ -25,17 +25,20 @@ body {
 }
 
 #page-header{
-	text-align: center
+	text-align: center;
 	background: transparent;
 	color: black;
 	margin: 20px 0 12px;
+	font-size: 50px;
+
 }
 
 .page-header h1{
 	padding: 6px;
 	display: inline;
 	background-color: #EEEEEE;
-	font-family: 'Orbitron', sans-serif;
+	font-family: 'Orbitron', sans-serif;		
+	font-size: 50px;
 
 }
 
@@ -89,8 +92,9 @@ body {
 	/*display: inline;*/
 	background-color: #EEEEEE;
 	color: black;
-	font-family: 'Orbitron', sans-serif;
-	font-size: 15px;
+	font-family: 'Droid Serif', serif;
+	font-size: 20px;
+	overflow-x: scroll;
 }
 
 #profile p span{
@@ -98,7 +102,7 @@ body {
 }
 
 #profile img{
-	padding-top: 13px;
+	padding-top: 43px;
 	padding-bottom: 40px;
 }
 
@@ -179,6 +183,10 @@ body {
 	font-family: 'Orbitron', sans-serif;
 }
 
+#create form{
+	margin-top: 20px;
+}
+
 #blog h2 span{
 	padding: 10px;
 	margin-top: 30px;
@@ -215,7 +223,7 @@ body {
 	font-family: 'Orbitron', sans-serif;
 }
 
-
+#edit
 
 
 

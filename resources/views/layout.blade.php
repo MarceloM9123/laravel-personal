@@ -16,8 +16,8 @@
 
 	<div class="container">
 		<div class="row">
-			<div id="blog-header" class="page-header">
-				<h1>Marcelo Mata <small>coder</small></h1>
+			<div id="page-header" class="page-header">
+				<h1>Marcelo Mata <small>Coder</small></h1>
 			</div>
 		</div>
 	</div>
