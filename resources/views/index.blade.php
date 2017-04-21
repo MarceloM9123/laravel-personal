@@ -7,21 +7,21 @@
 	<!-- <div id="page-header"  class="page-header">
 		<div class="container">
   			<h1>Marcelo Mata <small>Coder</small></h1>
-		</div>  			
+		</div>
 	</div> -->
 
 
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<div id="profile"> 
+				<div id="profile">
 					<div class="intro">
-						
+
 						<div class="center">
 							<h1><span>Profile</span></h1>
 							<hr>
 						</div>
-						
+
 
 						<div class="container">
 							<div class="row">
@@ -31,7 +31,7 @@
 									<div class="center">
 										<h2><span>About</span></h2>
 										<hr>
-										<p>I am a web developer who enjoys learning new skills.  Understading what once seemed to be impossibly complex is what drives me.  I have a background in mathematics and like solving puzzles.  Transitioning to coding has been a challenge I wholeheartedly embraced.</p>
+										<p>I am a web developer who enjoys learning new skills.  Understading what once seemed to be impossibly complex is what drives me.  I have a background in mathematics and like solving puzzles.</p>
 									</div>
 								</div>
 
@@ -45,7 +45,7 @@
 									<div class="center">
 										<h2><span>Details</span></h2>
 										<hr>
-										<p>Age: 25 <br/> 
+										<p>Age: 25 <br/>
 										Location: Brookfield, Illinois<br/>
 										Email: marcelomata91@gmail.com</p>
 									</div>
@@ -54,7 +54,7 @@
 
 							</div>
 						</div>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</div>
@@ -73,7 +73,7 @@
 				<div id="my-slide" class="carousel slide" data-ride="carousel">
 
 					<div class="carousel-inner" role="listbox">
-						
+
 						<div  class="item active">
 							<img src="../images/laravel5.png" alt=""/>
 						</div>
@@ -155,7 +155,7 @@
 				<h3 class="panel-title">Full Stack</h3>
 				</div>
 				<div class="panel-body">
-				<p><span>Every web developer has to learn to deploy a website.  I use the service Digitalocean to host my websites.  The Digitalocean community has excellent tutorials for instantiating a server.</span></p>
+				<p><span>Every web developer has to learn to deploy a website.  I use the service Digitalocean to host my websites.  The Digitalocean community has excellent guides for instantiating a server.</span></p>
 				</div>
 		</div>
 
@@ -164,7 +164,7 @@
 				<h3 class="panel-title">Soft Skills</h3>
 				</div>
 				<div class="panel-body">
-				<p><span>My strong work ethic and enthusiasm for learning new skills have come in very handy.  Programming has many languages and each with their own complexities.  I relish the feeling of uncertainty that learning a new language or framework brings.  Since I know it won't be long before I can look back and realize how far I have come in understanding such a complex subject.</span></p>
+				<p><span>My strong work ethic and enthusiasm for learning new skills have come in very handy.  Programming has many languages and each with their own complexities.  I value and relish the feeling of uncertainty that learning a new skill brings.  Since I know it won't be long before I can look back and realize how far I have come in understanding such a complex subject.</span></p>
 				</div>
 		</div>
 
@@ -174,7 +174,7 @@
 @endsection
 
 @section('footer')
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <!-- Use downloaded version of Bootstrap -->
 <script src="js/js/bootstrap.min.js"></script>
 @endsection

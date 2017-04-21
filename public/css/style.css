@@ -5,7 +5,7 @@ body {
 }
 
 .full{
-	background: url("../images/21imacdesktopOWC.jpg") no-repeat center center fixed;
+	background: url("../images/21macEdit.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -37,14 +37,14 @@ body {
 	padding: 6px;
 	display: inline;
 	background-color: #EEEEEE;
-	font-family: 'Orbitron', sans-serif;		
+	font-family: 'Orbitron', sans-serif;
 	font-size: 50px;
 
 }
 
 .carousel img {
 	min-width: 100%;
-	max-height: 
+	max-height:
 }
 
 #profile {
@@ -81,7 +81,7 @@ body {
 
 #profile .intro{
 	margin-top: 50px;
-	margin-bottom: 50px; 
+	margin-bottom: 50px;
 }
 
 #profile .center{
@@ -123,7 +123,7 @@ body {
 }
 
 #skills{
-	
+
 }
 
 #skills .center{
