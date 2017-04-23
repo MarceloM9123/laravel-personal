@@ -2,6 +2,7 @@ body {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	background: none;
+	position: relative;
 }
 
 .full{
@@ -10,6 +11,16 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+#nav{
+	background-color: white;
+}
+
+#nav a{
+	color: black;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 18px;
 }
 
 #jumbotron {
@@ -49,7 +60,9 @@ body {
 
 #profile {
 	background-color: transparent;
+	margin-top: 100px;
 	margin-bottom: 100px;
+	padding-top: 20px;
 }
 
 #profile h1 {
@@ -107,6 +120,7 @@ body {
 }
 
 #tech {
+	padding-top: 90px;
 }
 
 #tech h1{
@@ -123,6 +137,7 @@ body {
 }
 
 #skills{
+	padding-top: 70px;
 
 }
 
@@ -185,6 +200,10 @@ body {
 
 #create form{
 	margin-top: 20px;
+}
+
+#blog{
+	padding-top: 50px;
 }
 
 #blog h2 span{

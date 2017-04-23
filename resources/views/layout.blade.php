@@ -12,15 +12,7 @@
 
 
 </head>
-<body class='full'>
-
-	<div class="container">
-		<div class="row">
-			<div id="page-header" class="page-header">
-				<h1>Marcelo Mata <small>Coder</small></h1>
-			</div>
-		</div>
-	</div>
+<body data-spy="scroll" data-target="#nav" class='full'>
 
 	@yield('content')
 
