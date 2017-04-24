@@ -66,10 +66,13 @@ body {
 }
 
 #profile h1 {
+	margin-bottom: 30px;
+	padding: 18px;
 	color: black;
-	display: inline;
-	margin-left: 20px;
+	background-color: white;
+	/*display: inline;*/
 	font-family: 'Orbitron', sans-serif;
+	font-size: 60px;
 }
 
 #profile h1 span{
@@ -117,6 +120,7 @@ body {
 #profile img{
 	padding-top: 43px;
 	padding-bottom: 40px;
+
 }
 
 #tech {
@@ -145,34 +149,30 @@ body {
 	text-align: center;
 }
 
-#skills h1 span{
-	padding: 10px;
-	margin-top: 30px;
+#skills h1 {
+	padding: 18px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 	color: black;
-	display: inline;
 	background-color: #EEEEEE;
 	font-family: 'Orbitron', sans-serif;
+	font-size: 60px;
 }
 
 #skills h2 span{
 	padding: 10px;
 	margin-top: 30px;
+	margin-bottom: 40px;
 	color: black;
 	display: inline;
 	background-color: #EEEEEE;
 	font-family: 'Orbitron', sans-serif;
 }
 
-#skills .panel{
-	font-family: 'Droid Serif', serif;
-	background-color: transparent;
-}
 
-#skills .panel-body{
-	color: black;
-}
-
-#skills .panel-body p span{
+#skills p span{
+	margin-top: 10px;
+	margin-bottom: 40px;
 	padding: 10px;
 	display: inline-flex;
 	font-size: 18px;
@@ -204,6 +204,20 @@ body {
 
 #blog{
 	padding-top: 50px;
+}
+
+#blog h1{
+	padding: 18px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: black;
+	background-color: #EEEEEE;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 60px;
+}
+
+#blog .center{
+	text-align: center;
 }
 
 #blog h2 span{
@@ -242,7 +256,7 @@ body {
 	font-family: 'Orbitron', sans-serif;
 }
 
-#edit
+
 
 
 

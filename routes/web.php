@@ -11,8 +11,13 @@
 |
 */
 
+use \App\Post;
+
 Route::get('/', function () {
-    return view('index');
+
+    $posts = Post::latest()->limit(3)->get();
+
+    return view('index', compact('posts'));
 });
 
 Route::get('/blog', 'PostController@index');
