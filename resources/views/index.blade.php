@@ -20,8 +20,8 @@
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
 	        <li class="active"><a href="#profile">Profile <span class="sr-only">(current)</span></a></li>
-	        <li><a href="#tech">Tech</a></li>
 	        <li><a href="#skills">Skills</a></li>
+	        <li><a href="#blog">Blog</a></li>
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
 	        <li><a href="/blog">Blog</a></li>
@@ -153,6 +153,8 @@
 			@foreach ($posts as $post)
 			<div class="col-sm-4">
 				<div class="center">
+
+					<img src="/storage/{{ $post->img }}">
 
 					<h2><span>
 					<a href="/blog/{{ $post->id }}">

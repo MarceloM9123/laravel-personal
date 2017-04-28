@@ -2,6 +2,8 @@
 	<div class="row">
 		<div id="blog" class="col-sm-8">
 
+			<img src="storage/{{ $post->img }}">
+
 			<h2><span>
 			<a href="/blog/{{ $post->id }}">
 			{{ $post->title }}

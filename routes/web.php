@@ -30,7 +30,7 @@ Route::get('/blog/{post}', 'PostController@show');
 
 Route::get('/blog/{post}/edit', 'PostController@edit');
 
-Route::patch('/blog/{post}', 'PostController@update');
+Route::put('/blog/{post}', 'PostController@update');
 
 Route::delete('/blog/{post}', 'PostController@destroy');
 

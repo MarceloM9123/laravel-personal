@@ -6,6 +6,12 @@ use Illuminate\Http\Request;
 
 use \App\Post;
 
+use Image;
+
+use Illuminate\Support\Facades\Input;
+
+use Storage;
+
 class PostController extends Controller
 {
     
@@ -28,25 +34,47 @@ class PostController extends Controller
 
 
 
-    public function store(){
-
-        // $post = new \App\Post;
-
-        // $post->title = request('title');
-
-        // $post->body = request('body');
-
-        // $post->save();
+    public function store(Request $request){
 
         $this->validate(request(),[
 
             'title' => 'required',
 
-            'body' => 'required'
+            'body' => 'required',
+
+            'img' => 'required'
 
             ]);
 
-        Post::create(request(['title','body']));
+        $post = new \App\Post;
+
+        $post->title = request('title');
+
+        $post->body = request('body');
+        
+        $post->img = request('img')->getClientOriginalName();
+
+        $post->save();
+
+
+        // Post::create(request(['title','body', 'post_img']));
+
+        $image = Input::file('img');
+
+        $filename = $image->getClientOriginalName();
+
+        Storage::putFileAs('/public', $image, $filename);
+
+
+
+        // if(Input::hasFile('post_img')){
+
+        //     $img = Input::file('post_img');
+
+        //     $filename = $post_img->getClientOriginalName();
+
+        //     $img->move('uploads', $filename);
+        // }
 
         return redirect('/blog');
     }
@@ -76,13 +104,21 @@ class PostController extends Controller
             
             'title' => 'required',
             
-            'body' => 'required'
+            'body' => 'required',
 
+            'img' => 'required'
             ]);
 
         $post->title = request('title');
         $post->body = request('body');
+        $post->img = request('img')->getClientOriginalName();
         $post->save();
+
+        $image = Input::file('img');
+
+        $filename = $image->getClientOriginalName();
+
+        Storage::putFileAs('/public', $image, $filename);
 
         // Post::update(request(['title','body']));
 
