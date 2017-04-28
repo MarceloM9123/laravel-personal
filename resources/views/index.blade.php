@@ -23,9 +23,9 @@
 	        <li><a href="#skills">Skills</a></li>
 	        <li><a href="#blog">Blog</a></li>
 	      </ul>
-	      <ul class="nav navbar-nav navbar-right">
+	      <!-- <ul class="nav navbar-nav navbar-right">
 	        <li><a href="/blog">Blog</a></li>
-	      </ul>
+	      </ul> -->
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
@@ -41,7 +41,7 @@
 					<div class="intro">
 						<div class="container">
 							<div class="center">
-								<h1>Profile</h1>
+								<h1>PROFILE</h1>
 							</div>
 						</div>
 
@@ -88,7 +88,7 @@
 			<div class="container">
 				<div class="col-sm-12">
 					<div class="center">
-						<h1>Skills</h1>
+						<h1>SKILLS</h1>
 					</div>
 				</div>
 			</div>
@@ -143,7 +143,7 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="center">
-					<h1>Blog</h1>
+					<h1><a href="/blog">BLOG</a></h1>
 				</div>
 			</div>
 		</div>
@@ -154,7 +154,7 @@
 			<div class="col-sm-4">
 				<div class="center">
 
-					<img src="/storage/{{ $post->img }}">
+					<a href="/blog/{{ $post->id }}"><img src="/storage/thumb-{{ $post->img }}"></a>
 
 					<h2><span>
 					<a href="/blog/{{ $post->id }}">
