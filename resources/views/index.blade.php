@@ -151,24 +151,27 @@
 
 		<div class="row">
 			@foreach ($posts as $post)
-			<div class="col-sm-4">
-				<div class="center">
+			<div class="col-sm-6 col-md-4">
+				<div class="thumnail">
+				  <div class="center">
 
 					<a href="/blog/{{ $post->id }}"><img src="/storage/thumb-{{ $post->img }}"></a>
 
-					<h2><span>
-					<a href="/blog/{{ $post->id }}">
-					{{ $post->title }}
-					</a>
-					</span></h2>
+					<div class="caption">
+						<h2><span>
+						<a href="/blog/{{ $post->id }}">
+						{{ $post->title }}
+						</a>
+						</span></h2>
 
 
-					<h5><span>
-					{{ $post->created_at->toFormattedDateString() }}
-					</span></h5>
+						<h5><span>
+						{{ $post->created_at->toFormattedDateString() }}
+						</span></h5>
 
-					<p><span>{{ $post->body }}</span></p>
-
+						<p><span>{{ $post->body }}</span></p>
+					</div>
+				  </div>
 				</div>
 			</div>
 			@endforeach
