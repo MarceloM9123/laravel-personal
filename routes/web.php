@@ -34,5 +34,7 @@ Route::put('/blog/{post}', 'PostController@update');
 
 Route::delete('/blog/{post}', 'PostController@destroy');
 
+Auth::routes();
+
 
 

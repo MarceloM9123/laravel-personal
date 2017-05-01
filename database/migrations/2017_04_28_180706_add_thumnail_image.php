@@ -14,7 +14,7 @@ class AddThumnailImage extends Migration
     public function up()
     {
         Schema::table('posts', function(Blueprint $table){
-            $table->string('thumbnail');
+            $table->string('thumbnail')->default('default.jpg');
         });
     }
 

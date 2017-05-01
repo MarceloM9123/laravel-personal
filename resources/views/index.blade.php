@@ -86,7 +86,7 @@
 	<div id="skills" class="container">
 		<div class="row">
 			<div class="container">
-				<div class="col-sm-12">
+				<div class="col-md-12">
 					<div class="center">
 						<h1>SKILLS</h1>
 					</div>
@@ -101,7 +101,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6">
-				<div>
+				<div class="center">
 					<p><span>HTML5, CSS3, Javascript, Python, PHP, SQL, JSON, JQuery</span></p>
 				</div>
 			</div>
@@ -116,7 +116,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6">
-				<div>
+				<div class="center">
 					<p><span>MVC, Laravel, Django, Angular, Bootstrap</span></p>
 				</div>
 			</div>
@@ -131,7 +131,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6">
-				<div>
+				<div class="center">
 					<p><span>Sublime Text 3, Github, Stack Overflow</span></p>
 				</div>
 			</div>

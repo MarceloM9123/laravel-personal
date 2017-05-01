@@ -63,11 +63,19 @@ class PostController extends Controller
 
         $filename = $image->getClientOriginalName();
 
-        $path = public_path('storage/thumb-' .$filename);
+        $thumb_path = public_path('storage/thumb-' .$filename);
 
-        $thumb = Image::make($image)->resize(100,100)->save($path);
+        $path = public_path('storage/' .$filename);
 
-        Storage::putFileAs('/public', $image, $filename);
+        $blog_img = Image::make($image)->resize(500,400, function ($constraint){
+            $constraint->aspectRatio();
+        })->save($path);
+
+        $thumb = Image::make($image)->resize(210,190, function($constraint){
+            $constraint->aspectRatio();
+        })->save($thumb_path);
+
+        // Storage::putFileAs('/public', $blog_img, $filename);
         
 
 
