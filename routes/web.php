@@ -22,13 +22,13 @@ Route::get('/', function () {
 
 Route::get('/blog', 'PostController@index');
 
-Route::get('/blog/create', 'PostController@create');
+Route::get('/blog/create', 'PostController@create')->middleware('auth');
 
 Route::post('/blog', 'PostController@store');
 
 Route::get('/blog/{post}', 'PostController@show');
 
-Route::get('/blog/{post}/edit', 'PostController@edit');
+Route::get('/blog/{post}/edit', 'PostController@edit')->middleware('auth');
 
 Route::put('/blog/{post}', 'PostController@update');
 
