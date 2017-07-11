@@ -76,7 +76,7 @@
 									<div class="center">
 										<h2><span>About</span></h2>
 										<hr>
-										<p>I am a web developer who enjoys learning new skills.  Understading what once seemed to be impossibly complex is what drives me.  I have a background in mathematics and like solving puzzles.</p>
+										<p>I am a web developer who enjoys learning new skills.  Understading what once seemed to be impossibly complex is what drives me.  I have a background in mathematics and like solving problems.</p>
 									</div>
 								</div>
 
