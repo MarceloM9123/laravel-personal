@@ -124,9 +124,11 @@
 					<h2><span>Languages</span></h2>
 				</div>
 			</div>
-			<div class="col-sm-6">
-				<div class="center">
-					<p><span>HTML5, CSS3, Javascript, Python, PHP, SQL, JSON, JQuery</span></p>
+			<div class="container">
+				<div class="col-sm-6">
+					<div class="center">
+						<p><span>HTML5, CSS3, Javascript, Python, PHP, SQL, JSON, JQuery</span></p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -139,9 +141,11 @@
 					<h2><span>Frameworks</span></h2>
 				</div>
 			</div>
-			<div class="col-sm-6">
-				<div class="center">
-					<p><span>MVC, Laravel, Django, Angular, Bootstrap</span></p>
+			<div class="container">
+				<div class="col-sm-6">
+					<div class="center">
+						<p><span>MVC, Laravel, Django, Angular, Bootstrap</span></p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -154,9 +158,11 @@
 					<h2><span>Tools</span></h2>
 				</div>
 			</div>
-			<div class="col-sm-6">
-				<div class="center">
-					<p><span>Sublime Text 3, Github, Stack Overflow</span></p>
+			<div class="container">
+				<div class="col-sm-6">
+					<div class="center">
+						<p><span>Sublime Text 3, Github, Stack Overflow</span></p>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -173,7 +173,7 @@ body {
 #skills p span{
 	margin-top: 10px;
 	margin-bottom: 40px;
-	margin-right: 40px;
+	/*margin-right: 40px;*/
 	padding: 10px;
 	display: inline-flex;
 	font-size: 18px;
