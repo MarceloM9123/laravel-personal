@@ -2,6 +2,7 @@
 <html lang="eng">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Marcelo Mata</title>
 
@@ -38,7 +39,7 @@
 <body data-spy="scroll" data-target="#nav" class='full'>
 
   <img src="../images/21macEdit.jpg" class="bg">
-  
+
 
     <nav id="nav" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
