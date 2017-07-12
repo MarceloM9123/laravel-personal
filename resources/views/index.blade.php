@@ -167,7 +167,7 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="center">
-					<h1><a href="/blog">BLOG</a></h1>
+					<h1><a href="/">BLOG</a></h1>
 				</div>
 			</div>
 		</div>

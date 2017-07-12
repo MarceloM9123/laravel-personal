@@ -5,13 +5,13 @@ body {
 	position: relative;
 }
 
-.full{
+/*.full{
 	background: url("../images/21macEdit.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
+}*/
 
 #nav{
 	background-color: white;
@@ -277,9 +277,11 @@ body {
 }
 
 
-
-
-
+.navbar-brand {
+	font-family: 'Orbitron', sans-serif;
+	color: black;
+	
+}
 
 
 

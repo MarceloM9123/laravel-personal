@@ -13,14 +13,14 @@
 
 use \App\Post;
 
-Route::get('/', function () {
+Route::get('/profile', function () {
 
     $posts = Post::latest()->limit(3)->get();
 
     return view('index', compact('posts'));
 });
 
-Route::get('/blog', 'PostController@index');
+Route::get('/', 'PostController@index');
 
 Route::get('/blog/create', 'PostController@create')->middleware('auth');
 
