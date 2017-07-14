@@ -76,7 +76,9 @@
 									<div class="center">
 										<h2><span>About</span></h2>
 										<hr>
-										<p>I am a web developer who enjoys learning new skills.  Understading what once seemed to be impossibly complex is what drives me.  I have a background in mathematics and like solving problems.</p>
+										<div class="padded-multiline">
+											<p><span>I am a web developer who enjoys learning new skills.  Understading what once seemed to be impossibly complex is what drives me.  I have a background in mathematics and like solving problems.</span></p>
+										</div>
 									</div>
 								</div>
 
@@ -90,9 +92,13 @@
 									<div class="center">
 										<h2><span>Details</span></h2>
 										<hr>
-										<p>Age: 25 <br/>
-										Location: Brookfield, Illinois<br/>
-										Email: marcelomata91@gmail.com</p>
+										<div class="padded-multiline">
+											<p>
+												<span>Age: 25 <br/>
+												Location: Brookfield, Illinois<br/>
+												Email: marcelomata91@gmail.com</span>
+											</p>
+										</div>
 									</div>
 								</div>
 
@@ -199,7 +205,6 @@
 						{{ $post->created_at->toFormattedDateString() }}
 						</span></h5>
 
-						<p><span>{{ $post->body }}</span></p>
 					</div>
 				  </div>
 				</div>

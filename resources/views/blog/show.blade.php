@@ -4,13 +4,15 @@
 
 	<div class="container">
 		<div class="row">
-			<div id="blog" class="col-sm-8">
+			<div id="blog" class="col-sm-12">
 				
-				<img src="/storage/{{ $post->img }}">
+				<div class="center">
+					<img class="img-responsive" src="/storage/{{ $post->img }}">
+				</div>
 
 				<h2><span>{{ $post->title }}</span></h2>
 
-				<p><span>{{ $post->body }}</span></p>
+				<p><span>{!! nl2br(e($post->body)) !!}</span></p>
 
 			</div>
 		</div>

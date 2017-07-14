@@ -96,7 +96,7 @@ class PostController extends Controller
         //     $img->move('uploads', $filename);
         // }
 
-        return redirect('/blog');
+        return redirect('/');
     }
 
 
@@ -151,7 +151,7 @@ class PostController extends Controller
 
         // Post::update(request(['title','body']));
 
-        return redirect('/blog');
+        return redirect('/');
 
     }
 
@@ -163,7 +163,7 @@ class PostController extends Controller
         $post->delete();
 
 
-    	return redirect('/blog');
+    	return redirect('/');
     }
 
 
