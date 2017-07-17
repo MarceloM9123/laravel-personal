@@ -1,6 +1,6 @@
 <div class="container">
 	<div class="row">
-		<div id="blog" class="col-sm-12">
+		<div id="blog" class="col-sm-8">
 
 			<div class="center">
 				<img class="img-responsive center" src="storage/{{ $post->img }}">
@@ -17,7 +17,10 @@
 			{{ $post->created_at->toFormattedDateString() }}
 			</span></h5>
 
-			<p><span>{!! nl2br(e($post->body)) !!}</span></p>
+			
+			<div id="blog" class="post-body">
+				{!! $post->body !!}
+			</div>
 
 		</div>
 	</div>
