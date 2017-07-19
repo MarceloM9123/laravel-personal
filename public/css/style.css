@@ -73,6 +73,8 @@ body {
 	/*display: inline;*/
 	font-family: 'Orbitron', sans-serif;
 	font-size: 60px;
+	box-shadow: 10px 10px 5px;
+
 }
 
 #profile h1 span{
@@ -87,6 +89,8 @@ body {
 	background-color: #EEEEEE;
 	color: black;
 	font-family: 'Orbitron', sans-serif;
+	box-shadow: 10px 10px 5px;
+
 }
 
 #profile h2 span{
@@ -105,16 +109,19 @@ body {
 }
 
 .padded-multiline { 
-  /*line-height: 1.3; */
-  padding: 2px 0; 
-  /*margin: 20px auto;*/
+  	/*line-height: 1.3; */
+  	padding: 2px 0; 
+  	/*margin: 20px auto;*/
+
 }
 
 #profile .padded-multiline p{
 	background-color: #EEEEEE;
 	color: black;
-	font-family: 'Droid Serif', serif;
+	/*font-family: 'Droid Serif', serif;*/
+	font-family: 'Orbitron', sans-serif;
 	font-size: 20px;
+	/*text-align: left;*/
 	padding: 4px 0;
 	display: inline;
 	right: -10px;
@@ -126,7 +133,7 @@ body {
 	display:inline;
 	position:relative;
 	background-color: #EEEEEE;
-  	left: -10px; 
+  	left: -10px;
 }
 
 #profile img{
@@ -169,6 +176,8 @@ body {
 	background-color: #EEEEEE;
 	font-family: 'Orbitron', sans-serif;
 	font-size: 60px;
+	box-shadow: 10px 10px 5px;
+
 }
 
 #skills h2 span{
@@ -179,6 +188,8 @@ body {
 	display: inline;
 	background-color: #EEEEEE;
 	font-family: 'Orbitron', sans-serif;
+	box-shadow: 10px 10px 5px;
+
 }
 
 
@@ -191,6 +202,8 @@ body {
 	font-size: 18px;
 	color: #D9CB81;
 	background-color: rgb(0,131,80);
+	box-shadow: 10px 10px 5px black;
+
 }
 
 #create .header{
@@ -242,6 +255,7 @@ body {
 	background-color: #EEEEEE;
 	font-family: 'Orbitron', sans-serif;
 	font-size: 60px;
+	box-shadow: 10px 10px 5px;
 }
 
 #blog .center{
@@ -265,6 +279,7 @@ body {
 	background-color: rgb(0,131,80);
 	display: inline;
 	font-family: 'Orbitron', sans-serif;
+	box-shadow: 5px 5px 25px 4px black;
 }
 
 #blog h2 span a{
@@ -276,7 +291,7 @@ body {
 	font-family: 'Orbitron', sans-serif;
 	position: relative;
   	left: -10px; 
-  	right: -10px; 
+  	right: -10px;
 }
 
 /*#blog p{
@@ -305,6 +320,7 @@ body {
 	font-family: 'Droid Serif', serif;
 	font-size: 27px;
 	line-height: 52px;
+	box-shadow: 10px 10px 2px 20px white;
 }
 
 
@@ -319,6 +335,8 @@ body {
 	background-color: white;
 	display: inline;
 	font-family: 'Orbitron', sans-serif;
+	box-shadow: 10px 10px 5px;
+
 }
 
 #blog a{
@@ -328,6 +346,7 @@ body {
 #blog img{
 	/*display: */
 	margin:auto;
+	box-shadow: 10px 10px 5px black;
 }
 
 .navbar-brand {
