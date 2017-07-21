@@ -23,7 +23,9 @@
 
 				<div id="create" class="form-group">
 				    <label for="body"><h2><span>Body*</span></h2></label>
-				    <textarea id="body" class="form-control" rows="15" name="body">{{ $post->body }}</textarea>
+				    <textarea id="body" class="form-control" name="body">
+				    <?php echo htmlspecialchars($post->body); ?>
+				    </textarea>
 				</div>
 
 				<div id="create" class="form-group">

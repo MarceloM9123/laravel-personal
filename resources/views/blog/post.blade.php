@@ -18,9 +18,9 @@
 			</span></h5>
 
 			
-			<div id="blog" class="post-body">
-				{!! $post->body !!}
-			</div>
+			{{-- <div id="blog" class="post-body"> --}}
+				{{-- {!! $post->body !!} --}}
+			{{-- </div> --}}
 
 		</div>
 	</div>

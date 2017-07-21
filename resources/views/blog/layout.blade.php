@@ -6,10 +6,12 @@
 
   <title>Marcelo Mata</title>
 
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
-  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="{{ asset('/css/prism.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ asset('/css/style.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ asset('/css/bootstrap.css') }}">
   <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+  <script src="{{ asset('js/js/prism.js') }}"></script>
 
   <style>
     img.bg {
@@ -32,13 +34,17 @@
         left: 50%;
         margin-left: -708px; }
     }
+
+    .language-javascript{
+      font-size: 18px
+    }
   </style>
 
 
 </head>
 <body data-spy="scroll" data-target="#nav" class='full'>
 
-  <img src="../images/21macEdit.jpg" class="bg">
+  <img src="{{ asset('/images/21macEdit.jpg') }}" class="bg">
 
 
     <nav id="nav" class="navbar navbar-default navbar-fixed-top">
