@@ -63,9 +63,9 @@ class PostController extends Controller
 
         $filename = $image->getClientOriginalName();
 
-        $thumb_path = public_path('storage/thumb-' . $filename);
+        $thumb_path = public_path('/storage/thumb-' . $filename);
 
-        $path = public_path('storage/' . $filename);
+        $path = public_path('/storage/' . $filename);
 
         $blog_img = Image::make($image)->resize(500,400, function ($constraint)
                     {
@@ -138,9 +138,9 @@ class PostController extends Controller
 
         $filename = $image->getClientOriginalName();
 
-        $path = public_path('storage/' . $filename);
+        $path = public_path('/storage/' . $filename);
 
-        $thumb_path = public_path('storage/thumb-' . $filename);
+        $thumb_path = public_path('/storage/thumb-' . $filename);
 
         $thumb = Image::make($image)->resize(210,190, function($constraint)
                 {
