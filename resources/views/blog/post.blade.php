@@ -3,7 +3,7 @@
 		<div id="blog" class="col-sm-8">
 
 			<div class="center">
-				<img class="img-responsive center" src="storage/{{ $post->img }}">
+				<img class="img-responsive center" src="{{ asset('storage/' . $post->img ) }}">
 			</div>
 
 			<h2><span>
