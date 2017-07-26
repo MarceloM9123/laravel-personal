@@ -96,7 +96,7 @@
 											<p>
 												<span>Age: 25 <br/>
 												Location: Brookfield, Illinois<br/>
-												Email: marcelomata91@gmail.com</span>
+												Email: marcelo@marcelomata.info</span>
 											</p>
 										</div>
 									</div>
