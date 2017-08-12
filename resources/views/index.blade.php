@@ -63,11 +63,11 @@
 			<div class="col-sm-12">
 				<div id="profile">
 					<div class="intro">
-						<div class="container">
+						{{-- <div class="container">
 							<div class="center">
 								<h1>PROFILE</h1>
 							</div>
-						</div>
+						</div> --}}
 
 						<div class="container">
 							<div class="row">
@@ -82,11 +82,11 @@
 									</div>
 								</div>
 
-								<div class="col-sm-4">
+								{{-- <div class="col-sm-4">
 									<div class="center">
 										<img src="../images/me.png">
 									</div>
-								</div>
+								</div> --}}
 
 								<div class="col-sm-4">
 									<div class="center">
@@ -115,13 +115,13 @@
 
 	<div id="skills" class="container">
 		<div class="row">
-			<div class="container">
+			{{-- <div class="container">
 				<div class="col-md-12">
 					<div class="center">
 						<h1>SKILLS</h1>
 					</div>
 				</div>
-			</div>
+			</div> --}}
 		</div>
 
 		<div class="row">
@@ -175,7 +175,7 @@
 	</div>
 
 	<!-- blog -->
-	<div id="blog" class="container">
+	{{-- <div id="blog" class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="center">
@@ -212,7 +212,7 @@
 			@endforeach
 		</div>
 
-	</div>
+	</div> --}}
 
 
 
